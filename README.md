@@ -1,52 +1,32 @@
-# ESP8266 WiFi Captive Portal 2.0
+# (Modded) ESP8266 WiFi Captive Portal 3.0
 
 ## Disclaimer
 This project is for testing and educational purposes. Use it only against your own networks and devices. I don't take any responsibility for what you do with this program.
 
 ## About this project
-WiFi captive portal for the NodeMCU (ESP8266 Module) with DNS spoofing. It asks the user for an email and a password for a fake sign in, in order to "get connected to the internet".
+WiFi captive portal for the Wemos D1 Mini Pro (ESP8266 Module) with DNS spoofing. It asks the user for an email and a password for a fake sign in, in order to "get connected to the internet".
 
-The built-in LED will blink 5 times when some credentials are posted.
+I wrote this code for my Senior capstone project at the vocational school I attend.
 
-<b>Warning!</b> Your saved credentials will disappear when you restart/power off the ESP8266.
+This project is built and optimized to run off a battery and a single board, lasting indifinitely while idle and 10 days of broadcasting depending on your battery. The biggest features I added are network-range geofencing, file persistence, and a modified portal page. The geofencing is triggered by being in range of any of 3 SSIDs, for development and failsafes.
 
-<b>Note:</b> If you want to see the stored credetials go to <a>"**http**://</a>yourcurrentwebsite.com<a>/creds</a>" or "**172.0.0.1**<a>/creds</a>"
+The built-in LED will blink 5 times when some credentials are posted, and once per minute while broadcasting.
+
+<b>Update!</b> Your saved credentials will be saved in overwrite-friendly flash storage using ESP_EEPROM. 
+
+<b>Note:</b> If you want to see the stored credetials go to <a>"**http**://</a>yourcurrentwebsite.com<a>/creds1</a>" or "**172.0.0.1**<a>/creds1</a>"
 
 # Screenshots
 
-<table>
-  <tr>
-    <th>172.0.0.1/index</th>
-    <th>172.0.0.1/post</th> 
-    <th>172.0.0.1/creds</th>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/125K/ESP8266_WiFi_Captive_Portal_2.0/master/src/1_index.png" title="Index"></td>
-    <td><img src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/2_post.png" title="Post"></td>
-    <td><img src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/3_creds.png" title="Creds"></td>
-  </tr>
-</table>
+I don't have the time nor do I feel like taking screenshots of the page. I made it to look like a Cisco Meraki sign in page to look more realistic and believable.
 
+This isn't my donation link but by all means support adamff-dev
 <a href="https://www.buymeacoffee.com/rSiZtB3" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
 
 # Installation (ESP8266 Flasher - Easy way)
 
-1. Download <a href="https://github.com/nodemcu/nodemcu-flasher"><b>ESP8266 Flasher</b></a>.
-
-2. Download the <b><a href="https://github.com/125K/ESP8266_WiFi_Captive_Portal_2.0/releases/download/2.1/release.bin">release.bin</b></a> file.
-
-3. Open the ESP8266 Flasher and select the Node MCU port
-
-<img width="80%" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/1_port_selection.PNG">
-
-4. Then, go to the config tab and select the .bin file you've just downloaded.
-
-<img width="80%" src="https://raw.githubusercontent.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/master/src/2_file_selection.png">
-
-5. Finally, go back to the first tab and press "Flash"
-
-6. Your Node MCU is ready!
+There is no easy way. If you're this far in you know how to use the Arduino IDE.
 
 # Installation (Arduino IDE)
 
