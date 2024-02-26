@@ -8,7 +8,7 @@ WiFi captive portal for the Wemos D1 Mini Pro (ESP8266 Module) with DNS spoofing
 
 I modified this code for my Senior capstone project at the vocational school I attend.
 
-This project is built and optimized to run off a battery and a single board, lasting indifinitely while idle and ~10 days of broadcasting depending on your battery. The biggest features I added are network-range geofencing, file persistence, and a modified portal page. The geofencing is triggered by being in range of any of 3 SSIDs, for development and failsafes.
+This project is built and optimized to run off a battery and a single board, lasting indifinitely while idle and ~10 days of broadcasting depending on your battery. The biggest features I added are network-range geofencing, overwrite friendly persistent memory, and a realistic portal page. The geofencing is triggered by being in range of any of 3 SSIDs, for development and failsafes.
 
 The built-in LED will blink 5 times when some credentials are posted, and once per minute while broadcasting.
 
