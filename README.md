@@ -34,7 +34,7 @@ There is no easy way. If you're this far in you know how to use the Arduino IDE.
 ``http://arduino.esp8266.com/stable/package_esp8266com_index.json``
 2. Go to "Tools -> Board -> Boards Manager", search "esp8266" and install esp8266
 3. Go to "Tools -> Board" and select you board"
-4. Download and open the sketch "<a href="https://github.com/BlueArduino20/ESP8266_WiFi_Captive_Portal_2.0/blob/master/ESP8266_WiFi_Captive_Portal_2.0.ino"><b>ESP8266_WiFi_Captive_Portal_2.0.ino</b></a>"
+4. Download and open the sketch "<a href="https://github.com/simoonvance/ESP8266_WiFi_Captive_Portal_3.0/blob/master/ESP8266_WiFi_Captive_Portal_3.0.ino"><b>ESP8266_WiFi_Captive_Portal_3.0.ino</b></a>"
 5. You can optionally change some parameters like the SSID name and texts of the page like title, subtitle, text body...
 6. Upload the code into your board.
 7. You are done!
