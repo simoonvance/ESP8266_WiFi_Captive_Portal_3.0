@@ -16,17 +16,12 @@ The built-in LED will blink 5 times when some credentials are posted, and once p
 
 <b>Note:</b> If you want to see the stored credetials go to "**172.0.0.1**<a>/creds1</a>"
 
-# Screenshots
-
-I don't have the time nor do I feel like taking screenshots of the page. I made it to look like a Cisco Meraki sign in page to look more realistic and believable.
+# Networking
 
 This isn't my donation link but by all means support adamff-dev
+
 <a href="https://www.buymeacoffee.com/rSiZtB3" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-
-# Installation (ESP8266 Flasher - Easy way)
-
-There is no easy way. If you're this far in you know how to use the Arduino IDE.
 
 # Installation (Arduino IDE)
 
