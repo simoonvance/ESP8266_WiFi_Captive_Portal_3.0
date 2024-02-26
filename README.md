@@ -6,15 +6,15 @@ This project is for testing and educational purposes. Use it only against your o
 ## About this project
 WiFi captive portal for the Wemos D1 Mini Pro (ESP8266 Module) with DNS spoofing. It asks the user for an email and a password for a fake sign in, in order to "get connected to the internet".
 
-I wrote this code for my Senior capstone project at the vocational school I attend.
+I modified this code for my Senior capstone project at the vocational school I attend.
 
-This project is built and optimized to run off a battery and a single board, lasting indifinitely while idle and 10 days of broadcasting depending on your battery. The biggest features I added are network-range geofencing, file persistence, and a modified portal page. The geofencing is triggered by being in range of any of 3 SSIDs, for development and failsafes.
+This project is built and optimized to run off a battery and a single board, lasting indifinitely while idle and ~10 days of broadcasting depending on your battery. The biggest features I added are network-range geofencing, file persistence, and a modified portal page. The geofencing is triggered by being in range of any of 3 SSIDs, for development and failsafes.
 
 The built-in LED will blink 5 times when some credentials are posted, and once per minute while broadcasting.
 
 <b>Update!</b> Your saved credentials will be saved in overwrite-friendly flash storage using ESP_EEPROM. 
 
-<b>Note:</b> If you want to see the stored credetials go to <a>"**http**://</a>yourcurrentwebsite.com<a>/creds1</a>" or "**172.0.0.1**<a>/creds1</a>"
+<b>Note:</b> If you want to see the stored credetials go to "**172.0.0.1**<a>/creds1</a>"
 
 # Screenshots
 
